@@ -1,0 +1,82 @@
+{
+  "config": {
+    "networkId": 3005,
+    "chainId": 3005,
+    "eip2FBlock": 0,
+    "eip7FBlock": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip160FBlock": 0,
+    "eip161FBlock": 0,
+    "eip170FBlock": 0,
+    "eip100FBlock": 0,
+    "eip140FBlock": 0,
+    "eip198FBlock": 0,
+    "eip211FBlock": 0,
+    "eip212FBlock": 0,
+    "eip213FBlock": 0,
+    "eip214FBlock": 0,
+    "eip658FBlock": 0,
+    "eip145FBlock": 0,
+    "eip1014FBlock": 0,
+    "eip1052FBlock": 0,
+    "eip1283FBlock": 0,
+    "petersburgBlock": 0,
+    "eip152FBlock": 0,
+    "eip1108FBlock": 0,
+    "eip1344FBlock": 0,
+    "eip1884FBlock": 0,
+    "eip2028FBlock": 0,
+    "eip2200FBlock": 0,
+    "eip2565FBlock": 0,
+    "eip2929FBlock": 0,
+    "eip2718FBlock": 0,
+    "eip2930FBlock": 0,
+    "eip3529FBlock": 0,
+    "eip3541FBlock": 0,
+    "eip1559FBlock": null,
+    "eip3198FBlock": null,
+    "eip3554FBlock": null,
+    "eip4399FBlock": null,
+    "eip3651FBlock": 0,
+    "eip3855FBlock": 0,
+    "eip3860FBlock": 0,
+    "eip4895FBlock": null,
+    "eip6049FBlock": 0,
+    "disposalBlock": 0,
+    "ecip1099FBlock": 0,
+    "ecip1017FBlock": 0,
+    "ecip1017EraRounds": 1200000,
+    "ecip1010PauseBlock": null,
+    "ecip1010Length": null,
+    "ethash": {}
+  },
+  "nonce": "0x0",
+  "timestamp": "0x68469884",
+  "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0x1C9C380",
+  "difficulty": "0xE8D4A51000",
+  "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "baseFeePerGas": null,
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "alloc": {
+    "0xb60547Cd480787E15Ef22926FC3ec4C9FADA930C": {
+      "balance": "20833333333333333333333333333"
+    },
+    "0x11AD8FCe337D3885E8d48cb57e64ECb80bE4b51e": {
+      "balance": "20833333333333333333333333333"
+    },
+    "0x45A02d46C8ed5CAFEE4c55Eda4A52E2C9bf9cD44": {
+      "balance": "20833333333333333333333333333"
+    },
+    "0x818635237D30cb54d3Acd1a727E37647d6A0E547": {
+      "balance": "10416666666666666666666666666"
+    },
+    "0x3833326089b61034BeC022Ed826f697EED6C90A3": {
+      "balance": "10416666666666666666666666666"
+    }
+  }
+}
