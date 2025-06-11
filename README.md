@@ -20,7 +20,7 @@ This command initializes the data folder (`data`) using the genesis file (`bitgo
 To start your node, use the `geth` command:
 
 ```bash
-./geth --datadir ./data --bootnodes enode://87888bd215d39409936872c87080f8c5f910c0668064c075c2688a2b82ae88f8ecd8d3b8063ed7a4244a36b9e9306e3fa5924f5f0852d672cf33ea85d0e093b6@185.180.220.213:30303 --http --http.addr 0.0.0.0 --http.port 8545 --http.api personal,eth,net,web3,miner --http.vhosts "*" --syncmode "full"
+./geth --datadir ./data --bootnodes enode://87888bd215d39409936872c87080f8c5f910c0668064c075c2688a2b82ae88f8ecd8d3b8063ed7a4244a36b9e9306e3fa5924f5f0852d672cf33ea85d0e093b6@185.180.220.213:30303,enode://18623ce8c76395bb0d90d49101523ab128e94956eea0b9b3291e87490e88b417ed1478dae36ecb87ad8df4e31ee4fea2be423879a4ba4a93316e411efb417cde@109.236.90.63:30303 --http --http.addr 0.0.0.0 --http.port 8545 --http.api personal,eth,net,web3,miner --http.vhosts "*" --syncmode "full"
 ```
 
 This starts the node in full synchronization mode.
@@ -28,7 +28,7 @@ This starts the node in full synchronization mode.
 To enable mining, use the `--mine` flag with additional mining parameters:
 
 ```bash
-./geth --datadir ./data --bootnodes enode://87888bd215d39409936872c87080f8c5f910c0668064c075c2688a2b82ae88f8ecd8d3b8063ed7a4244a36b9e9306e3fa5924f5f0852d672cf33ea85d0e093b6@185.180.220.213:30303 --http --http.addr 0.0.0.0 --http.port 8545 --http.api personal,eth,net,web3,miner --http.vhosts "*" --syncmode "full" --mine --miner.threads=1 --miner.etherbase 0xYourEthereumAddress
+./geth --datadir ./data --bootnodes enode://87888bd215d39409936872c87080f8c5f910c0668064c075c2688a2b82ae88f8ecd8d3b8063ed7a4244a36b9e9306e3fa5924f5f0852d672cf33ea85d0e093b6@185.180.220.213:30303,enode://18623ce8c76395bb0d90d49101523ab128e94956eea0b9b3291e87490e88b417ed1478dae36ecb87ad8df4e31ee4fea2be423879a4ba4a93316e411efb417cde@109.236.90.63:30303 --http --http.addr 0.0.0.0 --http.port 8545 --http.api personal,eth,net,web3,miner --http.vhosts "*" --syncmode "full" --mine --miner.threads=1 --miner.etherbase 0xYourEthereumAddress
 ```
 
 Replace `0xYourEthereumAddress` with your own Ethereum address to receive mining rewards.
